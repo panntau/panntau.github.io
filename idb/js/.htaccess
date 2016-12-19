@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^blog\.idevband\.com [NC]
+RewriteCond %{REQUEST_URI} !^/blog/
+RewriteRule ^(.*)$ /blog/$1 [L,QSA]
