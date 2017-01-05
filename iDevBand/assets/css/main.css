@@ -5321,9 +5321,9 @@ button.close {
 
 @media (min-width: 992px) {
   .c-portfolio__item_pad .card {
-    flex: 0 0 750px;
-    width: 750px;
-    height: 1000px;
+    flex: 0 0 600px;
+    width: 600px;
+    height: 800px;
   }
 }
 
@@ -5408,9 +5408,9 @@ h1 + p, p + p {
 
 @media (min-width: 992px) {
   .card {
-    flex: 0 0 320px;
-    width: 320px;
-    height: 568px;
+    flex: 0 0 260px;
+    width: 260px;
+    height: 462px;
   }
 }
 
