@@ -313,7 +313,7 @@ $(window).scroll(function() {
 
             setTimeout(function() {
                 $('#portfolio .c-portfolio__item').eq(i).addClass('is-showing');
-            }, (1500 * (Math.exp(i * 0.14))) - 1000);
+            }, (1000 * (Math.exp(i * 0.14))) - 1000);
         });
 
     }
