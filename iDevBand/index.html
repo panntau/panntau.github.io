@@ -5,25 +5,9 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <link rel="shortcut icon" href="./assets/img/favicons/favicon.ico"/>
-    <link rel="stylesheet" href="assets/css/main.css"/>  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
-  <link rel="manifest" href="/assets/img/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
+    <link rel="shortcut icon" href="./assets/img/favicon.ico"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <!--include favicon.html-->
   </head>
   <body data-spy="scroll" data-target="#my-nav"><!-- Navigation Bar -->
 <div class="navbar navbar-fixed-top">
@@ -63,11 +47,11 @@
 					<span>We are a band of developers offering</span>
 					<span class="rotating-words">outsourcing, iOS/OS X Apps, design</span>
 				</p>
-				<div class="social-icons light-icons">
+				<!-- <div class="social-icons light-icons">
 					<a href="https://www.facebook.com/idevband" target="_blank"><i class="fa fa-facebook" ></i></a>
-					<!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
-					<!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
-				</div>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+				</div> -->
 				<div class="scroll-more">
 					<span>Scroll down</span>
 					<i class="scroll-arrow"></i>
@@ -78,8 +62,14 @@
 </section>
 <!-- End of Welcome Section -->
 
-    <section id="portfolio" class="l-portfolio-section light-section dark-content">
-      <div id="app" class="containerCards c-portfolio__section">
+    <section id="portfolio" class="l-portfolio__section light-section dark-content">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 class="special-heading dark-special">Our Work</h1>
+          <p class="section-description">Look at some of our work including iPhone, iPad and web applications.</p>
+        </div>
+      </div>
+      <div id="portfolioApp" class="containerCards c-portfolio__section">
         <!--  figure.c-portfolio__thumb-->
         <!-- img(src="assets/img/portfolio/zuno_2.jpg").c-portfolio__img-->
         <card data-image="assets/img/portfolio/zuno_1.jpg" class="c-portfolio__item">
@@ -91,20 +81,12 @@
           <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </card>
         <card data-image="assets/img/portfolio/eats_1.jpg" class="c-portfolio__item">
-          <h1 slot="header">Eats</h1>
-          <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <h1 slot="header">EATS</h1>
+          <p slot="content">GET ONLY THE BEST PLACE TO EAT NEAR YOU.Eats mobile app helps you quickly decide where to eat and drink by cutting through the clutter and giving you only one and the best place near you with a few alternatives. The less time you spend slaving over restaurant reviews and searching, the more time you can spend living and enjoying moments that matter.</p>
         </card>
         <card data-image="assets/img/portfolio/eats_2.jpg" class="c-portfolio__item">
-          <h1 slot="header">Eats</h1>
-          <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </card>
-        <card data-image="assets/img/portfolio/mybooks_1.jpg" class="c-portfolio__item">
-          <h1 slot="header">MyBooks</h1>
-          <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </card>
-        <card data-image="assets/img/portfolio/mybooks_2.jpg" class="c-portfolio__item">
-          <h1 slot="header">MyBooks</h1>
-          <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <h1 slot="header">EATS</h1>
+          <p slot="content">GET ONLY THE BEST PLACE TO EAT NEAR YOU.Eats mobile app helps you quickly decide where to eat and drink by cutting through the clutter and giving you only one and the best place near you with a few alternatives. The less time you spend slaving over restaurant reviews and searching, the more time you can spend living and enjoying moments that matter.</p>
         </card>
         <card data-image="assets/img/portfolio/Calenala_1.png" class="c-portfolio__item">
           <h1 slot="header">Calenala</h1>
@@ -130,21 +112,42 @@
           <h1 slot="header">My Skoda</h1>
           <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </card>
-        <card data-image="assets/img/portfolio/photobox_1.jpg" class="c-portfolio__item">
-          <h1 slot="header">Photobox</h1>
-          <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </card>
-        <card data-image="assets/img/portfolio/photobox_2.jpg" class="c-portfolio__item">
-          <h1 slot="header">Photobox</h1>
-          <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </card>
         <card data-image="assets/img/portfolio/placesAroundYou_1.jpg" class="c-portfolio__item">
-          <h1 slot="header">Places Around You</h1>
-          <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <h1 slot="header">AROUND YOU</h1>
+          <p slot="content">This application comes in handy when you are new in a town, or just visiting a place or even when you are familiar with a town but don’t know where you want to go for a good steak or cup of coffee. We use rich database from Google which also includes comments and ratings of particular places.</p>
         </card>
         <card data-image="assets/img/portfolio/placesAroundYou_2.png" class="c-portfolio__item">
           <h1 slot="header">Places Around You</h1>
           <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </card>
+      </div>
+      <div id="portfolioIpad" class="containerCards c-portfolio__section">
+        <card data-image="assets/img/portfolio/mybooks_1.jpg" class="c-portfolio__item_pad">
+          <noscript><img src="assets/img/portfolio/mybooks_1.jpg"/></noscript>
+          <h1 slot="header">MYBOOKS</h1>
+          <p slot="content">This application is for everyone who loves reading. Featuring beautiful book covers, bookmark system and other cool functions. With myBooks it’s easy to have your entire book collection in one place.
+            <p>Biggest advantage of myBooks application is possibility to read offline any book from our library</p>
+            <h4>Features:
+              <ul>
+                <li>Access to all books</li>
+                <All>books you like in one place</All>
+                <DRM-free>books we provide for free</DRM-free>
+                <Sophisticated>bookmark system</Sophisticated>
+              </ul>
+            </h4>
+          </p>
+        </card>
+        <card data-image="assets/img/portfolio/mybooks_2.jpg" class="c-portfolio__item_pad">
+          <h1 slot="header">MyBooks</h1>
+          <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </card>
+        <card data-image="assets/img/portfolio/photobox_1.jpg" class="c-portfolio__item_pad">
+          <h1 slot="header">PHOTOBOX</h1>
+          <p slot="content">Photobox is photo application for party photo sessions. One iPad is connected to OLYMPUS AIR A01 camera. By this iPad you can take photos of your friends. On second iPad you can browse photos, share them to your Facebook, email or directly by messages. With this application you can have a lot of fun on your private or company parties!</p>
+        </card>
+        <card data-image="assets/img/portfolio/photobox_2.jpg" class="c-portfolio__item_pad">
+          <h1 slot="header">PHOTOBOX</h1>
+          <p slot="content">Photobox is photo application for party photo sessions. One iPad is connected to OLYMPUS AIR A01 camera. By this iPad you can take photos of your friends. On second iPad you can browse photos, share them to your Facebook, email or directly by messages. With this application you can have a lot of fun on your private or company parties!</p>
         </card>
       </div>
     </section>
@@ -259,11 +262,11 @@
 <footer class="footer photo-section dark-section light-content">
 	<div class="bg-overlay"></div>
 	<div class="container">
-		<div class="social-icons light-icons">
+		<!-- <div class="social-icons light-icons">
 			<a href="#"><i class="fa fa-facebook"></i></a>
-			<!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
-			<!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
-		</div>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-linkedin"></i></a>
+		</div> -->
 		<p>© copyright iDevBand 2016</p>
 	</div>
 </footer>
