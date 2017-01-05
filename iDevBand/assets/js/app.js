@@ -765,4 +765,7 @@ $( document ).ready(function() {
 
   // Get started!
   $('body').removeClass('no-js');
+  $('.card-wrap').click(function(){
+    $(this).toggleClass('show-info');
+  });
 });

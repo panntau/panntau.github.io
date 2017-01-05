@@ -5326,9 +5326,9 @@ button.close {
 
 @media (min-width: 992px) {
   .c-portfolio__item_pad .card {
-    flex: 0 0 600px;
-    width: 600px;
-    height: 800px;
+    flex: 0 0 340px;
+    width: 340px;
+    height: 453px;
   }
 }
 
@@ -5371,26 +5371,30 @@ h1 + p, p + p {
   cursor: pointer;
 }
 
-.card-wrap:hover .card-info p {
+.card-wrap:focus .card-info, .card-wrap.show-info .card-info {
+  transform: translateY(0);
+}
+
+.card-wrap:focus .card-info p, .card-wrap.show-info .card-info p {
   opacity: 1;
 }
 
-.card-wrap:hover .card-info, .card-wrap:hover .card-info p {
+.card-wrap:focus .card-info, .card-wrap:focus .card-info p, .card-wrap.show-info .card-info, .card-wrap.show-info .card-info p {
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.card-wrap:hover .card-info:after {
+.card-wrap:focus .card-info:after, .card-wrap.show-info .card-info:after {
   transition: 5s cubic-bezier(0.23, 1, 0.32, 1);
   opacity: 1;
   transform: translateY(0);
 }
 
-.card-wrap:hover .card-bg {
+.card-wrap:focus .card-bg, .card-wrap.show-info .card-bg {
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), opacity 5s cubic-bezier(0.23, 1, 0.32, 1);
   opacity: 0.8;
 }
 
-.card-wrap:hover .card {
+.card-wrap:focus .card, .card-wrap.show-info .card {
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 2s cubic-bezier(0.23, 1, 0.32, 1);
   box-shadow: rgba(255, 255, 255, 0.2) 0 0 40px 5px, white 0 0 0 1px, rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset white 0 0 0 6px;
 }
