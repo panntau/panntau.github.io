@@ -5313,6 +5313,11 @@ button.close {
   text-align: center;
 }
 
+.js .c-portfolio__item {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
 .c-portfolio__item_pad .card {
   flex: 0 0 75vw;
   width: 75vw;
@@ -5364,10 +5369,6 @@ h1 + p, p + p {
   transform: perspective(800px);
   transform-style: preserve-3d;
   cursor: pointer;
-}
-
-.card-wrap:hover .card-info {
-  transform: translateY(0);
 }
 
 .card-wrap:hover .card-info p {
@@ -5487,7 +5488,7 @@ h1 + p, p + p {
   }
 }
 
-.c-portfolio__thumb {
+.c-portfolio__item {
   margin-bottom: 20px;
   position: relative;
   opacity: 0;
@@ -5497,12 +5498,12 @@ h1 + p, p + p {
   cursor: pointer;
 }
 
-.c-portfolio__thumb.is-showing {
+.c-portfolio__item.is-showing {
   opacity: 1;
   transform: translateX(0px);
 }
 
-.c-portfolio__thumb img {
+.c-portfolio__item img {
   display: block;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
