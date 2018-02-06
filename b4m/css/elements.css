@@ -8,12 +8,12 @@ Version: 1.0
 ----------------------------------
 
 Table of Contents
-        
+
     01. Navbar
     02. Header
     03. Hero Section
     04. Slider
-    05. Feature Box 
+    05. Feature Box
     06. Content
     07. Tab
     08. Team
@@ -27,7 +27,7 @@ Table of Contents
     16. Counter
     17. Clients
     18. Timer
-    19. Testimonial 
+    19. Testimonial
     20. Social Widget
 
 */
@@ -38,7 +38,7 @@ Table of Contents
 ====================================== */
 
 .navbar {padding: 20px 0 20px; z-index: 999; width: 100%; border-radius: 0; border: 0;}
-.navbar img {max-height:35px}
+.navbar img {max-height:65px}
 .navbar li {margin:13px 20px;}
 .navbar li:last-child { margin-right: 0;}
 .navbar li a {font-size: 12px; padding: 0;cursor: pointer !important; border-bottom: 1px solid transparent; }
@@ -237,7 +237,7 @@ header .row { align-items: center; display: flex; height: auto;}
 .slider-text-middle-main {display: table; height: 100%;width: 100%;}
 
 /* ===================================
-    Feature Box 
+    Feature Box
 ====================================== */
 
 .feature-box-image { background: #a1a1a1; overflow: hidden;}
@@ -275,7 +275,7 @@ header .row { align-items: center; display: flex; height: auto;}
 .feature-style-31 span { padding-right: 20px;}
 
 /* ===================================
-    Content 
+    Content
 ====================================== */
 
 
@@ -295,7 +295,7 @@ header .row { align-items: center; display: flex; height: auto;}
 .small-titel-text { padding: 6px 17px 5px; font-size: 12px;}
 
 /* ===================================
-    Tab 
+    Tab
 ====================================== */
 
 .tab-style3 li { display: inline-block; float: none; margin: 0 25px;}
@@ -354,7 +354,7 @@ header .row { align-items: center; display: flex; height: auto;}
 /* tab style 5 */
 .tab-style2 .nav-tabs { display: inline-block; border: 0;}
 .tab-style2 .nav-tabs li { float: left; margin: 0; margin: 0 40px;}
-.tab-style2 .nav-tabs .active img { opacity: 1; -webkit-filter: none; filter: none;}  
+.tab-style2 .nav-tabs .active img { opacity: 1; -webkit-filter: none; filter: none;}
 .tab-style2 .nav-tabs li a { border: 0; margin: 0; background: transparent; padding: 0;}
 .tab-style2 .nav-tabs li.active a:hover, .tab-style2 .nav-tabs li.active a:focus { background: transparent; border: none;}
 .tab-style2 .nav-tabs li img {opacity: 0.4; -webkit-filter: grayscale(100%); filter: grayscale(100%);}
@@ -505,7 +505,7 @@ header .row { align-items: center; display: flex; height: auto;}
 .contact-form-style6 .contact-details {padding:40px 30px; border:1px solid rgba(0,0,0,.1)}
 
 /* ===================================
-    Blog 
+    Blog
 ====================================== */
 
 .blog-image { background: #a1a1a1 none repeat scroll 0 0; overflow: hidden;}
@@ -547,6 +547,7 @@ footer .newsletter button{padding: 0 !important; position: absolute; right:15px;
 footer .newsletter button.btn{padding: 8px 15px !important;}
 footer .social-icon a i{ height: 40px; width: 40px; border-radius: 50%; vertical-align: middle; text-align: center;}
 footer .social-icon a:last-child{ margin-right:0;}
+footer img{ max-height:85px;}
 
 /* ===================================
     Call To Action
@@ -582,7 +583,7 @@ footer .social-icon a:last-child{ margin-right:0;}
 .time-counter .counter-box:last-child {border-right:0}
 
 /* ===================================
-    Testimonial 
+    Testimonial
 ====================================== */
 
 /* testimonial style 5 */
@@ -637,7 +638,7 @@ footer .social-icon a:last-child{ margin-right:0;}
 /* button */
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus { outline: 0 none; box-shadow: none;}
 
-@media screen\0 { 
+@media screen\0 {
     .input-group-btn .btn-large.btn { height: 59px;}
     .equalize.equalize-display-inherit .display-table { display: inherit !important; position: static;}
     .equalize.equalize-display-inherit .display-table-cell-vertical-middle { display: inherit !important; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); position: relative;}

@@ -8,7 +8,7 @@ Version: 1.0
 ----------------------------------
 
 Table of contents
-        
+
     01. Google Font
     02. Reset
     03. Typography
@@ -65,7 +65,7 @@ dl {list-style-position: outside;}
 ::-moz-selection { color:#000; background:#dcdcdc; }
 ::-webkit-input-placeholder { color: #999; text-overflow: ellipsis; }
 :-moz-placeholder { color: #999 !important; text-overflow: ellipsis; opacity:1; }
-::-moz-placeholder { color: #999 !important; text-overflow: ellipsis; opacity:1; } 
+::-moz-placeholder { color: #999 !important; text-overflow: ellipsis; opacity:1; }
 :-ms-input-placeholder { color: #999 !important; text-overflow: ellipsis; opacity:1; }
 ::-webkit-scrollbar { width:12px }
 ::-webkit-scrollbar-track { -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3); -moz-box-shadow:inset 0 0 6px rgba(0,0,0,.3); box-shadow:inset 0 0 6px rgba(0,0,0,.3); }
@@ -89,7 +89,7 @@ h2 { font-size:35px; line-height:40px}
 h3 { font-size:30px; line-height:35px}
 h4 { font-size:25px; line-height:33px}
 h5 { font-size:20px; line-height:30px}
-h6 { font-size:18px; line-height:23px} 
+h6 { font-size:18px; line-height:23px}
 
 /* different text size */
 .text-extra-small { font-size:10px !important; line-height:15px;}
@@ -148,7 +148,7 @@ h6 { font-size:18px; line-height:23px}
 .font-weight-400 { font-weight:400 !important;}
 .font-weight-500 { font-weight:500 !important;}
 .font-weight-600 { font-weight:600 !important;}
-.font-weight-700 { font-weight:700 !important;} 
+.font-weight-700 { font-weight:700 !important;}
 .font-weight-800 { font-weight:800 !important;}
 .font-weight-900 { font-weight:900 !important;}
 
@@ -182,7 +182,7 @@ h6 { font-size:18px; line-height:23px}
 .text-transform { text-transform:uppercase}
 .text-decoration-underline { text-decoration:underline !important;}
 .word-wrap { word-wrap: break-word}
-.text-transform-none {text-transform:none} 
+.text-transform-none {text-transform:none}
 .line-height-none {line-height: 0 !important}
 .text-decoration-line-through {text-decoration:line-through !important;}
 .font-italic { font-style: italic;}
@@ -194,18 +194,18 @@ h6 { font-size:18px; line-height:23px}
 .text-light-gray{ color: #bfbfbf;}
 .text-light-gray2 { color: #707070;}
 .text-medium-gray{ color: #848484;}
-.text-gray{color: #ababab;} 
+.text-gray{color: #ababab;}
 .text-yellow{ color:#ffcf29;}
 .text-light-yellow{color: #f7f4ec;}
 .text-golden-yellow{color: #ecce63;}
 .text-blue{ color:#3953a1;}
 .text-deep-blue{ color: #2e5ba5;}
-.text-dark-blue { color: #2c353f;}
+.text-dark-blue { color: rgb(55,57,55);}
 .text-fast-blue{ color: #3966e6;}
 .text-sky-blue-dark{ color: #2c91d8;}
 .text-blue-gray { color:#919499;}
 .text-cyan{ color: #31c99b;}
-.text-deep-red{ color: #e7403a;}
+.text-deep-red{ color: rgb(235,36,42);}
 .text-pink{ color: #ff3d7f;}
 .text-dark-cherry { color: #3d3234;}
 .text-rosy-brown{color: #827777;}
@@ -218,7 +218,7 @@ h6 { font-size:18px; line-height:23px}
 .text-orange{color: #ef5037;}
 .text-light-orange{color: #ff573d;}
 .text-deep-purple { color: #472e83;}
-.text-chrome-yellow { color: #f5ab35;}
+.text-dark-aqua { color: rgb(115,188,202);}
 .text-turquoise-green {color: #2ccb8e}
 .text-brown { color: #4e2b1f;}
 .text-golden{ color: #d0ae5e;}
@@ -234,7 +234,7 @@ h6 { font-size:18px; line-height:23px}
 .text-yellow-ochre {color: #c0812a}
 .text-yellowish-gray {color: #817b71}
 .text-light-deep-yellow {color: #f5f0e9}
-.text-dark-aqua { color: #43cbcd;}
+.text-chrome-yellow { color: #43cbcd;}
 .text-emerald { color: #47DF84;}
 .text-deep-green-dark{color: #40c37d}
 .text-deep-blue-dark{color: #2e70c4}
@@ -275,7 +275,7 @@ h6 { font-size:18px; line-height:23px}
 /* social icon */
 .social-icon .fa { text-align: center; display: table-cell; vertical-align: middle; width: 30px; height: 30px !important; font-size: 14px; -webkit-transition: all 0.4s ease; transition: all 0.4s ease; color: #fff; background: none; }
 .social-icon.medium-social-icon .fa {width: 25px !important; height: 25px !important; font-size: 12px;}
-.social-icon a:hover .fa {opacity:.6} 
+.social-icon a:hover .fa {opacity:.6}
 .social-icon .fa-pinterest {background-color: #cb2027;}
 .social-icon .fa-rss {background-color: #f26522;}
 .social-icon .fa-facebook {background-color: #3b5998;}
@@ -339,7 +339,7 @@ h6 { font-size:18px; line-height:23px}
 .bg-light-gray { background: #f7f7f7;}
 .bg-dark-gray{ background: #282828;}
 .bg-middle-gray{ background: #dedede;}
-.bg-dark-blue { background: #2c353f;}
+.bg-dark-blue { background: rgb(55,57,55);}
 .bg-fast-blue{ background: #3966e6;}
 .bg-blue{ background: #1f337a;}
 .bg-deep-blue{ background: #2e5ba5;}
@@ -351,7 +351,7 @@ h6 { font-size:18px; line-height:23px}
 .bg-dark-cream { background-color: #ac9377;}
 .bg-dark-cherry { background: #3d3234;}
 .bg-pink { background: #ff3d7f;}
-.bg-deep-red{ background: #e7403a;}
+.bg-deep-red{ background: rgb(235,36,42);}
 .bg-rosy-brown{background:#9f9292;}
 .bg-light-red{background: #dc6768;}
 .bg-deep-purple { background: #472e83;}
